@@ -22,8 +22,9 @@ import numpy as np
 from textblob import TextBlob
 import nltk
 import re
-from nltk.stem import PorterStemmer
-from nltk.tokenize import WordPunctTokenizer
+from string import punctuation
+#from nltk.stem import PorterStemmer
+#from nltk.tokenize import WordPunctTokenizer
 from nltk import bigrams as bi_grams
 from nltk import trigrams as tri_grams
 
@@ -33,19 +34,25 @@ tweet_df = pd.read_csv('TweetResponseSample.csv')
 
 ############################ Tokenizing Function
 
-esw = nltk.corpus.stopwords.words('english') #i think we want to keep stopwords here
+#esw = nltk.corpus.stopwords.words('english') #i think we want to keep stopwords here
 word_pattern = re.compile("^\w+$")
 
-def get_text(text):
-    tokens = nltk.tokenize.WordPunctTokenizer().tokenize(PorterStemmer().stem(text))
-    tokens = [token for token in tokens if re.match(word_pattern, token)]
-    return(tokens)
+def strip_punctuation(s):
+    return ''.join(c for c in s if c not in punctuation)
+
+def clean_up(tweet):
+    low_tweet = tweet.lower()
+    nopun_tweet = strip_punctuation(low_tweet)
+    noweb_tweet = nopun_tweet.replace('http','')
+    split_tweet = re.split(r'\s',noweb_tweet)
+    clean_tweet = [split_tweet for split_tweet in split_tweet if re.match(word_pattern, split_tweet)]
+    return clean_tweet
     
 ############################ Unigram
 
 def unigram_vals(tweet_df):
         
-    '''prerequisite functions: get_text'''
+    '''prerequisite functions: clean_up'''
     
     # Read in just what we want
     
@@ -75,7 +82,7 @@ def unigram_vals(tweet_df):
     
         # tokenize each tweet
         
-        unigrams = list(dfx.apply(lambda row: get_text(row['tweet_message']), axis=1))
+        unigrams = list(dfx.apply(lambda row: clean_up(row['tweet_message']), axis=1))
         
         # merge into df
         
@@ -101,15 +108,27 @@ def unigram_vals(tweet_df):
         
         dfx.columns = ['unigrams','value','count']
         
+        # add business column names
+        
         dfx['business_name'] = business_names[i]
         
-        dfx = dfx[dfx['count'] >= 5].sort_values(by=['count','value'],ascending = False)
+        # Filter to phrases that occur 5 times
+        
+        dfx = dfx[dfx['count'] >= 5]
+        
+        # Add weight column to order by
+        
+        dfx['weight'] = dfx['count'] * dfx['value'] 
+                
+        # Clean up output a little
+        
+        dfx = dfx.loc[:,['business_name','unigrams','value','count','weight']].sort_values(by= 'weight',ascending = False).reset_index(drop=True)
         
         print(str(business_names[i]) + " is completed")
         
         df_final = df_final.append(dfx)
         
-        print(dfx.head())
+        #print(dfx.head())
         
     return df_final
 
@@ -117,7 +136,7 @@ def unigram_vals(tweet_df):
 
 def bigram_vals(tweet_df):
         
-    '''prerequisite functions: get_text'''
+    '''prerequisite functions: clean_up'''
     
     # Read in just what we want
     
@@ -147,7 +166,7 @@ def bigram_vals(tweet_df):
     
         # tokenize each tweet
         
-        unigrams = list(dfx.apply(lambda row: get_text(row['tweet_message']), axis=1))
+        unigrams = list(dfx.apply(lambda row: clean_up(row['tweet_message']), axis=1))
         
         # put unigrams in their own column
         
@@ -187,15 +206,27 @@ def bigram_vals(tweet_df):
         
         dfx.columns = ['bigrams','value','count']
         
+        # add business column names
+        
         dfx['business_name'] = business_names[i]
         
-        dfx = dfx[dfx['count'] >= 5].sort_values(by=['count','value'],ascending = False)
+        # Filter to phrases that occur 5 times
         
+        dfx = dfx[dfx['count'] >= 5]
+        
+        # Add weight column to order by
+        
+        dfx['weight'] = dfx['count'] * dfx['value'] 
+                
+        # Clean up output a little
+        
+        dfx = dfx.loc[:,['business_name','bigrams','value','count','weight']].sort_values(by= 'weight',ascending = False).reset_index(drop=True)
+                    
         print(str(business_names[i]) + " is completed")
         
         df_final = df_final.append(dfx)
         
-        print(dfx.head())
+        #print(dfx.head())
         
     return df_final
 
@@ -203,7 +234,7 @@ def bigram_vals(tweet_df):
 
 def trigram_vals(tweet_df):
         
-    '''prerequisite functions: get_text'''
+    '''prerequisite functions: clean_up'''
     
     # Read in just what we want
     
@@ -233,7 +264,7 @@ def trigram_vals(tweet_df):
     
         # tokenize each tweet
         
-        unigrams = list(dfx.apply(lambda row: get_text(row['tweet_message']), axis=1))
+        unigrams = list(dfx.apply(lambda row: clean_up(row['tweet_message']), axis=1))
         
         # put unigrams in their own column
         
@@ -265,7 +296,7 @@ def trigram_vals(tweet_df):
         
         # keep just what we want and remove None values
         
-        dfx = dfx[['trigrams','conversations_status']].dropna().reset_index()
+        dfx = dfx[['trigrams','conversations_status']].dropna().reset_index(drop=True)
             
         # group by unigrams, get average conversion status and total count
         
@@ -273,94 +304,30 @@ def trigram_vals(tweet_df):
         
         dfx.columns = ['trigrams','value','count']
         
+        # add business column names
+        
         dfx['business_name'] = business_names[i]
         
-        dfx = dfx[dfx['count'] >= 5].sort_values(by=['count','value'],ascending = False)
+        # Filter to phrases that occur 5 times
         
+        dfx = dfx[dfx['count'] >= 5]
+        
+        # Add weight column to order by
+        
+        dfx['weight'] = dfx['count'] * dfx['value'] 
+                
+        # Clean up output a little
+        
+        dfx = dfx.loc[:,['business_name','trigrams','value','count','weight']].sort_values(by= 'weight',ascending = False).reset_index(drop=True)
+                    
         print(str(business_names[i]) + " is completed")
         
         df_final = df_final.append(dfx)
         
-        print(dfx.head())
+        #print(dfx.head())
         
     return df_final
-############################ Engine
-    
-'''
-def Engine(tweet_df):
-    
-    # Evaluate n-gram average values and place result in df
-    
-    unigram_vals_df = unigram_vals(tweet_df)
-    bigram_vals_df = bigram_vals(tweet_df)
-    trigram_vals_df = trigram_vals(tweet_df)
-    
-    # Initialize n-gram columns in tweet_df, broadcast 0
-    
-    tweet_df['unigram_val'] = 0
-    tweet_df['bigram_val'] = 0
-    tweet_df['trigram_val'] = 0
-    
-    # For every tweet sum the average uni-gram, bi-gram and tri-gram values for each tweet (will be useful when we encounter unknown tweets)
-    
-    for i in tweet_df.index:
-        
-        for a in unigram_vals_df.index:
-            
-            if (tweet_df.loc[i,['tweet_message']].str.contains(unigram_vals_df.loc[a,['gram']]) == True) & (tweet_df.loc[i,['business_name']] == unigram_vals_df.loc[a,['business_name']]) :
-                tweet_df.loc[i,['unigram_val']] = tweet_df.loc[i,['unigram_val']] + unigram_vals_df.loc[a,['val']]
-            
-        for b in bigram_vals_df.index:
-            
-            if (tweet_df.loc[i,['tweet_message']].str.contains(bigram_vals_df.loc[a,['gram']]) == True) & (tweet_df.loc[i,['business_name']] == bigram_vals_df.loc[a,['business_name']]):
-                tweet_df.loc[i,['bigram_val']] = tweet_df.loc[i,['bigram_val']] + bigram_vals_df.loc[a,['val']]
-            
-        for c in trigram_vals_df.index:
-            
-            if (tweet_df.loc[i,['tweet_message']].str.contains(trigram_vals_df.loc[a,['gram']]) == True) & (tweet_df.loc[i,['business_name']] == trigram_vals_df.loc[a,['business_name']]):
-                tweet_df.loc[i,['trigram_val']] = tweet_df.loc[i,['trigram_val']] + trigram_vals_df.loc[a,['val']]
-                
-    # Term frequency, inverse document frequency
-    
-        # tweet_df['tfidf']
-    
-    # Part of speech tagging
-    
-        # tweet_df['verbs'] 
-        # tweet_df['nouns']
-        # tweet_df['adverb']
-        # tweet_df['adjective']
-        # tweet_df['pronoun']
-        
-        # tweet_df['emojis']
-        # tweet_df['punctuation']
-    
-    # Polarity
-    
-        # tweet_df['polarity']
-    
-    # Subjectivity
-    
-        # tweet_df['subjectivity']
-    
-    # Intensity
-    
-        # tweet_df['intensity']
-    
-    # Word count
-    
-        # tweet_df['word_count']
-    
-    # Character length
-    
-        # tweet_df['char_len']
-        
-    all_results = [tweet_df,unigram_vals_df,bigram_vals_df,trigram_vals_df] # return list of df's...will it work, idk? # return globals of ngram outputs?
-        
-    return all_results
-'''
-   
-############################
+
     
                 
                 
