@@ -1,0 +1,55 @@
+Foundations of Computational Linguistics
+by Roland Hausser
+
+Introduction:
+	•	Turing test — test whether an AI can truly pass for a human in terms of cognition and communication
+	•	This presupposes the complete coverage of the language data and of the communicative functions in real time
+	•	Two principle philosophies coming from the Eliza experiment:
+	•	smart solution — a maximal effect with a minimal amount of effort
+	•	solid solution — explain mechanism of natural communication theoretically, verify theory, and implement with language dependent lexicon in real time
+	•	Modeling the mechanism of natural communication requires
+	•	theory of language, explaining the natural transfer of information in a way that is functionally coherent
+	•	description of language, empirically complete for all components of this theory of language
+	•	degree of precision, supports straightforward computational implementation in real time
+	•	“There is a certain level of abstraction at which the flights of sparrows and jumbo jets function in the same way. Similarly, the modeling of natural language communication requires an abstract theory which applies to human and artificial cognitive machines alike.”
+	•	Truths
+	•	internal truths — are conceptual models, developed and used by scientists to explain certain phenomenon, a hypothesis
+	•	external truths — are the bare facts of external reality
+	•	progress in understanding is characterized by the closing of the gap between internal and external truths
+	•	In linguistics, methods of verifications have sorely been missing
+	•	The methodology of computational linguistics pre-supposes a theory of language which defines the goals of empirical analysis and provides the framework into which components are to be embedded without conflict or redundancy. The development of such a framework can be extraordinarily difficult, as witnessed again and again in the history of science.
+	•	structural hypothesis — a hypothesis consisting of multiple specific hypotheses. Each specific hypothesis addresses one aspect of a broader theoretical approach.
+	•	functional explanation — how something works
+	•	mathematical explanation — mathematical understanding of the relationships observed
+	•	SLIM — Surface compositional, Linear, Internal, Matching (for analysis of natural communication)
+	•	Surface compositional — (methodological) syntactic-semantic composition assembling only concrete word forms
+	•	Linear — (empiricle) interpretation and production of utterances are based on a strictly time-linear derivation order
+	•	Internal — (ontological) interpretation and production exist within the speaker-hearer relationship
+	•	Matching — (functional) referring with language to past, present or future objects, events, relations, and properties
+	•	SLIM must
+	•	understand natural language
+	•	produce natural language
+	•	infer actions via natural language
+
+Computational Analysis of Language:
+	•	Human-computer relationships are defined by main input and output devices for communication, today this is using keyboards and artificial languages that lack flexibility and understanding
+	•	Types of interaction
+	•	Standard computers have been regarded as general-purpose machines for information processing because any kind of standard program can be developed and installed on them
+	•	Autonomous robot AI aims at the development of autonomous agents in and environment with users via task-level decomposition
+	•	Virtual Reality AI aims at the placing the user in and artificial environment 
+	•	Approaches to Analyzing Natural Language
+	•	Traditional Grammar — method of informal classification and description based on tradition and experience, with the goal of classifying the regular
+	•	Theoretical Linguistics — uses mathematical logic to describe natural languages by means of formal rule systems intended to derive all and only the well-formed expressions of language
+	•	Computational Linguistics — combines traditional and theoretical linguistics  with the the method of explicit hypotheses by implementing formal grammars as efficient computer programs and test them automatically
+	•	Components of Grammar
+	•	Phonology — science of language sounds, study of historical changes and synchronic alterations in the spoken surface of word forms
+	•	Morphology — science of word form structure, classifies the words of a language according to their part of speech (category) and other properties such as gender, number, case and tense…describes structure of word forms
+	•	Lexicon — listing analyzed words, it deals with the principles of coding and structuring of lexical entities, it investigates semantic relations
+	•	Syntax — science of assembling word forms into sentences, it is the composition of meanings via the composition of word forms surfaces given grammatical rules and semantic interpretation
+	•	Semantics — science of literal meanings, lexical semantics describe the meaning of words, compositional semantics describes the composition of meanings in an accordance with syntax, procedural semantics are based in elementary operations of recognition in an explicit modeling of the information transfer
+	•	Structural Aspects of Linguistics
+	•	sounds — phonology
+	•	word forms — morphology
+	•	sentences — syntax
+	•	meanings — semantics
+	•	use — pragmatics
