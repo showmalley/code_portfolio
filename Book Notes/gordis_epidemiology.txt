@@ -1,0 +1,536 @@
+Gordis Epidemiology
+by David Celentano and Moyses Szklo
+
+Gordis Epidemiology: 
+
+5 — Assessing the validity and reliability of diagnostic and screening tests
+
+	•	Sensitivity - (True positive rate) proportion of people with the disease who will have a positive test result. A highly sensitive test is one that correctly identifies patients with a disease.
+	•	Net Sensitivity - In sequential testing, those who tested positive across multiple tests scores become the true positive rate. Increasing net positivity and decreasing net negativity.
+	•	Specificity - (True negative rate) Measures a test’s availability to correctly generate a negative result for people who don’t have the condition that is being tested. 
+	•	Net Sensitivity - In sequential testing, those who tested negative across multiple test scores become the true negative rate. Decreasing net positivity and increasing net negativity.
+	•	“The decision to use either sequential or simultaneous testing is often based on the objectives of the testing”
+	•	Positive Predictive Value - If the test results are positive in this patient, what is the probability this patient has the disease
+	•	Negative Predictive Value - If the test results are negative in this patient, what is the probability this patient doesn’t hav the disease.
+	•	“The relationship between disease prevalence and predictive value shows that most of the gain in positive predictive value occurs with increases in prevalence at the lowest rates of disease prevalence”
+	•	“The higher the prevalence, the higher the predictive value…therefore, screening a total population for a relatively infrequent disease can be a wasteful use of resources and may yield few previously undetected cases relative to the amount of effort involved. However, high risk a subset can be identified and screening can be directed to this group, the program is likely to be far more productive.”
+	•	Aspects of addressing diagnostic and screening reliability:
+	•	Intra-subject variation — variation within individual subjects
+	•	Intra-observer variation — variation in the reading of test results by the same reader
+	•	Inter-observer variation — variation between those reading the test results
+	•	Percent agreement — calculation of multiple Likert scale options of doctors opinions on a diagnosis in order to determine the likeliest result of a certain diagnosis
+	•	Kappa statistic is frequenlty applied both in clinical medicine and in public health. It answers how much better than chance is our agreement? Whats the most the two observers could agree? How much does this agreement improve on chance?’
+	•	Landis and Koch suggested that a kappa statistic greater than 0.75 represents excellent agreement beyond chance, while a kappa statistic below 0.40 represents poor agreement
+	•	Could we use kappa to “ensemble” human and also opinions? Could we then also look back in time to see who was more clinically correct? The algorithm or the doctor? Could we weight this back individually to every doctor’s decisions?
+	•	Kappa = percent agreement observed - percent expected by chance alone / 
+			    (100% - percent expected by chance alone)
+	•	To overcome many reporting biases, such as underreporting drinking, biomarkers have become commonly used in field studies. We would like to achieve results that are valid and reliable
+	•	When the reliability or repeatability of a test is poor, the validity of the test for a given individual also may be poor. Regardless of how sensitive and specific a test may be, if its results cannot be replicated, the test is of little use.
+
+6 — Natural History of Disease: Ways of Expressing Prognosis
+
+	•	Skipping to 7
+
+7 — Observational Studies
+
+	•	Case reports and case series are considered the simplest of study designs
+	•	To provide a comprehensive and detailed description of cases under observation…allowing physicians to identify and potentially report similar cases from their practice
+	•	Case reports and case studies are key hypothesis generating tools, especially when they are simple, inexpensive, and easy to conduct in the course of a busy clinical setting
+	•	Ecological studies — look for associations between the occurrence of disease and exposure to known or suspected causes. In ecological studies the unit of observation is the population or community.
+	•	Be careful, because we are often missing individual data on exposure
+	•	Ecological fallacy — occurs when you make conclusions about individuals based only on analyses of group data
+	•	Future studies addressing both individual risk factors and ecologic risk factors, such as neighborhood characteristics, and the possible interactions of both types of factors may improve our understanding of access to an angiographic examination.
+
+	•	Cross-Sectional Study
+	•	Description:
+	•	used in initially investigating the association between a specific exposure and a disease of interest. 
+	•	It studies both exposure and disease outcome and is determined simultaneously for each study participant; it is as if we were viewing a snapshot of the population at a certain point in time.
+	•	CS studies are often the first studies conducted before moving on to more valid study design
+	•	Biases:
+	•	Creates temporal bias because we would be unable to determine the temporal sequence of exposure and disease, potentially making us blind to reverse causality
+	•	Survival/selection bias — exposure is related to the duration of the disease, insofar as the volume of exposure varies widely among a group and creates issues in the true prediction of the relationship between exposure and disease
+	•	Prevalence/incidence bias — occurs when individuals with severe or mild disease are excluded, resulting in an error in the estimated association between an exposure and an outcome.
+	•	Determine Evidence of Association via:
+	•	Calculate the prevalence of disease in persons with the exposure and compare it with the prevalence of disease in persons without exposure.
+	•	Calculate the prevalence of exposure in persons with the disease and compare it with the prevalence of exposure in persons without the disease. 
+	•	Considerations:
+	•	We are identifying prevalent cases from a snapshot in time, not incident cases. So, if an association with an exposure and disease is observed, the association may be with survival after the disease rather than the risk of developing the disease.
+	•	Even if associations are observed, the association may be with survival rather than risk of developing, based on how the disease and model are coordinated.
+
+	•	Case-Control Study
+	•	Description:
+	•	Valuable for studying the etiology of disease
+	•	To determine the significance of clinical observations in a group of cases (have disease) reported by physicians, a comparison (aka control or reference) group is needed 
+	•	Comparison is an essential component of epidemiologic investigation and is well exemplified by the case-control study design
+	•	If there is an association of an exposure with a disease, the prevalence of history of exposure should be higher in persons who have the disease (cases) than those who do not (control)
+	•	Design:
+	•	Identify a group of individuals with a disease
+	•	Determine what proportion of the cases were exposed and what proportion were not
+	•	Determine what proportion of the controls were exposed and what proportion were not
+	•	Determine Evidence of Association via:
+	•	Compare proportions exposed between control and case groups
+	•	proportions exposed = exposed / (exposed + not exposed)
+	•	Biases:
+	•	The results may not be generalizable to all patients with the disease based community quirks of the population used.
+	•	The problem with the use of incident cases is that we must often wait for new cases to be diagnosed; whereas if we use prevalent cases, which have already been diagnosed, a large number of cases is often available for the study
+	•	It is generally preferable to use incident cases of the disease in case control studies of etiology (manner of causation of a disease or condition).
+	•	It is critical to take into account possible selection biases that may have been introduced by the study design and by the manner in which the study was conducted.
+	•	Recall bias is possible if recall of past exposure is not accurate, especially if an association is perceived out of fear, this is called rumination bias
+	•	Differential recall between cases and controls introduces a recall bias into the study that could artificially suggest a relation of disease given an exposure
+	•	Considerations:
+	•	Number of controls selected per gas in a case-control study is in the hands of the investigator and does not reflect the prevalence of disease in the population
+	•	The hallmark of the case-control study is that it begins with people with the disease (cases) and compares them to people without the disease (controls)
+	•	What distinguishes case-control and cohort studies is whether the study begins with diseased and non-diseased people (case-control), or with exposed and unexposed people (cohort)
+	•	Many people maintain registries to reference for determining diseased population in case-control studies
+	•	Selection of Controls
+	•	If we conduct a case-control study and find more exposure in the cases than in the controls, we would like to be able to conclude that there is an association between the exposure and the disease in question. The way the controls are selected is a major determinant of whether such a conclusion is valid.
+	•	The use of non-hospitalized people as controls may be selected from several sources in the community, but to avoid selection bias, neighborhood controls has proven to be the most successful. 
+	•	The use of hospitalized people as controls is usually easier because they are around, but they represent a sample of ill-defined reference population that usually cannot be characterized and thus to which results cannot be generalized.
+	•	There is a conceptual attractiveness to comparing hospitalized cases to hospitalized controls from the same institution; However, partitioning this on a disease group that is often unrelated to the putative causative factor under investigation makes such controls unlikely to be representative of the general population
+	•	Problems that can occur are that if there are too many common relationships among the control (coffee and cigarettes) then its hard to know whether the disease is caused but he coffee drinking or something closely related with the factor (multicollinearity)
+	•	Try to keep as many multi collinear factors as consistent as possible, especially socioeconomic indicators. This can be tackled by: 
+	•	group matching — where the proportion controls with a certain characteristic is identical to the proportion of cases with the same characteristic
+	•	individual matching — for each case selected for the study, a control is selected who is similar to the case in terms of the specific variable or variables of concern, particularly important variables such as sex/age
+	•	*** its important that once we match on a characteristic, then we cannot study that characteristic ***
+	•	*** unplanned matching on a variable that is strongly related to the exposure being investigated in the study is called overmatching ***
+	•	multiple controls - same type — choose multiple controls that have the same core features as the cases, reducing the population size, but raising the accuracy among the population studied
+	•	multiple controls - different type — choose multiple controls that have the completely different features than the cases, to reduce high selectivity of a study group
+	•	When an association Is documented in a case-control study, the next step is to carry out a cohort study to further elucidate the relationship.
+
+	•	Case-Crossover Study
+	•	Description:
+	•	Primarily used for studying the etiology of deaths from acute events in situations where the suspected exposure is transient and its effects occurs over a short time.
+	•	In this type of study, there is inherent matching for variables that do not change, or variables that only change within a reasonably long period. 
+	•	To essentially ask the question, “Was there any difference in exposure between the time period immediately preceding the outcome and a time period in the more remote past that was not immediately followed by any adverse health effect?”
+	•	“Hazard period”
+	•	Design:
+	•	Characterized by rapid and transient increases in particulate matter
+	•	Each person who has a case deserves their own control
+
+	•	“The purpose of all of these types of studies is to identify associations between exposures and diseases. If such associations are found, the next step is to determine whether the associations are likely to be causal.”
+
+8 — Cohort Studies
+
+	•	Two steps that underlie the study designs
+	•	Determine whether there is an association between a factor or a characteristic and the development of a disease
+	•	Derive appropriate inferences regarding a possible causal relationship from the patterns of association that have been found
+
+	•	Cohort Study
+	•	General:
+	•	“If a positive association exists between the exposure and the disease, we would expect that the proportion of the exposed group in whom the disease develops (incidence in the exposed group) would be greater than the proportion of the unexposed group in whom the disease develops (incidence in the unexposed group)”
+	•	Compare rates of exposed and unexposed with the following equation:
+	•	Disease develops / (disease develops + disease does not develop)
+	•	Because are identifying new (incident) cases of disease as they occur, we CAN determine whether a temporal relationship exists between the exposure and the disease
+	•	A temporal relationship must be established if we are to consider the exposure a possible cause of the disease in question
+	•	Population:
+	•	All approaches to cohort study design is fundamentally the same, we compare exposed and unexposed persons
+	•	Two basic ways to generate cohort population:
+	•	1) Inclusion in the study on the basis of whether or not they were exposed
+	•	2) Basis of some factor not related to exposure (eg: community) and take histories, perform blood test or other assays on the entire population. Using the results to separate the population as exposed/unexposed.
+	•	Exposure may not take place for some time with this method
+	•	Design:
+	•	Investigator selects a group of exposed individuals and a group of unexposed individuals and follows both groups over time to compare the incidence of disease (rate of death from disease) in the two groups.
+
+	•	Prospective Cohort Study
+	•	AKA: concurrent or longitudinal
+	•	The investigator identifies the original population at the beginning of the study, and, in effect, follows the subjects concurrently through calendar time until the point at which the disease develops or does not develop.
+
+	•	Retrospective Cohort Study
+	•	AKA: nonconcurring or historical
+	•	Use historical data so that we can telescope (reduce) the frame of calendar time for a cohort study and obtain our results sooner
+
+	•	Case control studies defined by cohorts
+	•	Take advantage of the benefits of both case-control and cohort study designs by combining some elements of both into a single study
+	•	Cohort-based case-control studies can be divided into two types:
+
+	•	Nested Case-Control Study
+	•	Controls are a sample of individuals who are at risk for the disease at the time each case of the disease develops
+	•	Through time, every time an incidence occurs, a comparable control individual is selected
+	•	In this way, cases and controls are, in effect, matched on calendar time and length of follow up. 
+	•	Because a control is selected each time a case develops, a control who is selected early in the study could later develop the disease and become a case in the same study
+
+	•	Case-Cohort Study
+	•	Cases develop at the same times that they were seen, but the controls are randomly chosen from the defined cohort with which the study began. 
+	•	This subset of the full cohort is called a sub-cohort
+	•	Because controls are not individually matched in each case, it is possible to study different diseases in the same case-cohort study using the same cohort for controls
+	•	Cases and controls are not matched on calendar time and length of follow-up, instead, exposure is characterized for the sub-cohort 
+
+	•	Advantages of embedding a case-control study in a defined cohort?
+	•	Specimens are obtained at the beginning of the study, the data are thus obtained before any disease has developed. Making it more likely that these findings represent risk factors or other premorbid characteristics than a manifestation of early, subclinical disease.
+	•	Its more economical, only after the disease has developed in some subjects is a case-control study began and the specimens from a relatively small number of people are included in the case-control study tested.
+	•	In both designs, cases and controls are derived from the same original cohort, so there is likely to be greater comparability between the cases and the controls than one might ordinarily find in a traditional case-control study.
+
+	•	Cohort Creation Questions
+	•	At what point should the individuals in the cohort first be identified? 
+	•	Should the cohort be drawn from one center or from a few centers, or should it be a national sample drawn in an attempt to make the cohort representative of a national population?
+	•	For how long should a cohort be followed? A lifetime? What about funding?
+	•	Which hypotheses developed in earlier stages of research should be tested in the cohort that will be established?
+	•	How could the natural history of a treated infection remain relevant?
+	•	Was there any use in continuing to follow the cohort?
+	•	What are the unknown unknowns? Genetics, etc.
+
+	•	Selection Bias
+	•	Non-participation and non-response — if participants refuse to join a cohort, might their characteristics differ sufficiently from those who consent to enroll? 
+	•	Loss to follow-up — people with disease are selectively lost to follow up (attrition) differ from those who are not lost to follow up
+
+	•	Information Bias
+	•	Presence/absence — quality and extent of information obtained is different for exposed persons than for unexposed persons
+	•	Non-blind — person who decides whether the disease has developed knows of study and exposure research
+	•	Data preconceptions — epidemiologists and statisticians have strong preconceptions based in intended research objective
+
+	•	Why cohort study?
+	•	Is indicated when good evidence suggests an association of a disease with a certain exposure(s)
+	•	Because cohort studies involve follow up of populations, over a long period, the cohort approach is particularly attractive when we can minimize attrition of the study population.
+	•	Easier to conduct when the interval between exposure and the development of disease is short
+
+	•	Research flow design. 
+	•	A : Incidence Rates
+	•	B : Association Studies
+	•	C : Cohort Etiology Studies
+
+
+
+9 — Comparing Cohort and Case-Control Studies
+
+	•	In a cohort study that starts with a defined population, it is possible to study multiple exposures…these studies are of particular interest when the exposure is especially rare.
+	•	In a case-control study, because we begin with cases and controls, we are able to study more than one possible etiologic factor and to explore interactions among the factors.
+	•	In a nested case-control study, the data on exposure are obtained before the disease develops
+	•	In a cross-sectional study data on both exposure and disease outcomes are collected simultaneously from each subject. They usually do not permit the investigator to determine the temporal relationship between exposure and the development of disease…therefore, their value for deriving causal inferences are somewhat limited.
+	•	“Selection of an appropriate control group is one of the most difficult methodology problems encountered in epidemiology.”
+
+
+10 — Randomized Trials (Non-Observational)
+
+	•	Our objective is to modify the natural history of a disease so as to prevent or delay death or disability and to improve the health of the patient or population.
+
+	•	Randomized Clinical Trials
+	•	Applicability to studies outside of the clinical setting such as community-based research trials
+	•	Trials are experiments which are under the control of the investigator versus observational studies, where the investigator watches what unfolds but docs do not interfere or control
+	•	Design:
+	•	Begin with a defined population in which participants are randomized to receive either a new treatment or the current treatment (or placebo), and then are followed in each group to see how many are improved in the current treatment group.
+	•	If the new treatment is associated with a better outcome, we could expect to find better outcomes in more of the new treatment group than the current treatment group.
+	•	Treatments — must be clearly stated with criteria for their measurement, as well as the duration of the treatments and how long the study will last
+	•	Selection of Subjects:
+	•	There should be no element of subjective decision making on the part of the investigator in deciding who is included or not included in the study. Any procedure must in principle be replicable by others
+	•	Allocating Subjects to Treatment Groups Without Randomization
+	•	Case Study — no comparison is made with an untreated group or with a group 
+	•	“The issue of comparison is important because we want to be able to derive causal inference regarding the relationship of the treatment and the subsequent outcome.”
+	•	Historical Controls — when you use a comparison group from the past
+	•	The data obtained from the study must be comparable in kind and quality, in studies using historical controls, this is often not the case
+	•	“Secular changes” — Because many things other than therapy change over calendar time
+	•	Simultaneous Nonrandomized Controls
+	•	One option is to assign patients by the day of the month on which the patient is admitted to the hospital
+	•	The problem is that the assignment is predictable
+	•	The goal of randomization is to eliminate the possibility that the investigator will know what the assignment of the next patient will be, because such knowledge introduces bias
+	•	Allocating Subjects Using Randomization
+	•	Randomization is the best approach in the design of a trial
+	•	The critical element of randomization is the unpredictability of the next assignment
+	•	The next patient assignment is not predictable; it is not a strict allegation, which would be predictable and hence subject to investigator bias, knowingly or unknowingly.
+	•	There is often underlying conflict between the clinician’s role and the role of the physician participating in a clinical trial, and as a result, unintentional biases may occur.
+	•	If we randomize properly, we achieve non-predictability of the next assignment; we do not have to worry that any subjective biases of the investigators, either overt or covert, may be introduced into the process of selecting patients for one treatment group or the other.
+	•	Another benefit of randomization is that to whatever extent it contributes to comparability, this contribution applies both to variables we can measure and to variables that we cannot measure and may not even be aware of, even though they may be important in interpreting the findings of the trial.
+
+	•	Stratified Randomization
+	•	“It is still possible after we randomize that all of our high-risk patients are in one group and not in the other, especially with rare conditions…this is why we need stratified randomization”
+	•	Stratified randomization — stratify our population by each variable that we consider important then randomize participants to treat groups within each stratum.
+	•	For example, we may now have four groups if we…
+	•	Young males
+	•	Old males
+	•	Young females
+	•	Old females
+	•	Then we can randomize within each statue, and the result is a new treatment group and a current treatment group for each of the four groups
+
+	•	Crossover
+	•	Planned crossover — a new treatment is compared with a current treatment
+	•	Be careful of carryover, because there must be enough of a “washout period” to buy true that none of therapy A, or its effects, remains before starting therapy B
+	•	Any differences observed are indeed due to the agents being evaluated, and not to any effect of the order in which they were administered
+	•	Unplanned crossover — based on factors the investigators cannot control, some individuals in different groups choose different behavior
+	•	 We would compare the patients according to the treatment to which they were originally randomized
+	•	If the number of crossovers become large, the problem of interpreting the study results may become insurmountable
+
+	•	Factorial Design
+	•	A factorial design is an experimental setup that consists of multiple factors and their separate and conjoined influence on the subject(s) of interest in the experiment.
+	•	A factor is an independent variable in the experiment and a level is a subdivision of a factor.
+	•	Factors and levels are different conditions that the experimental subjects are exposed to.
+	•	A study or experiment is used to see if any of the conditions influence the subject and in what ways they are influential.
+	•	If the effects of two treatments are indeed completely independent, we could evaluate the effects of treatment A by comparing the results in cells a + c to the results of b + d to those in cells c + d.
+	•	In the event that it is decided to terminate the study of treatment A, this design permits continuing the study to determine the effects of treatment B
+
+
+	•	Non-Compliance
+	•	Drop Outs — refusal to comply or stopping participation in the study
+	•	Drop Ins — patients in one group may inadvertently take the agent assigned to the other group
+	•	If multiple treatments, one way to maximize compliance is to administer a single pill that includes a combination of two medications needed to achieve the therapeutic target
+
+	•	Randomized trial is generally considered the gold standard of study designs
+	•	Mendilian Randomization — mimics random allocation of its rather stringent assumptions can be met
+	•	a method of using measured variation in genes of known function to examine the causal effect of a modifiable exposure on disease in observational studies
+
+11 — Randomized Trials Issues
+
+	•	Our 
+
+12 — Estimating Risk
+
+	•	The fundamental difference between a randomized trail and a cohort study is that, in a cohort study, subjects are not randomly assigned to be exposed or remain unexposed, because randomization to exposure to possibly toxic or carcinogenic agents clearly would not be acceptable. 
+	•	Cohort studies are used in many studies of etiology
+	•	Case-Control studies are also used to address questions of etiology, although often at a more exploratory phase.
+	•	Risk — the probability of an event
+	•	Comparison is fundamental to epidemiology 
+
+	•	Absolute Risk
+	•	Incidence of a disease in a population…the magnitude of the risk in a group of people with a certain exposure.
+	•	Causal inference counterfactual — risk given the presents of another external event occurring prior
+
+	•	Risk Calculations
+	•	Risk Ratio = Disease risk in exposed / Disease risk in unexposed
+	•	Risk Difference = Disease risk in exposed - Disease risk in unexposed
+
+	•	Relative Risk 
+	•	Only works for cohort studies
+	•	Relative Risk = Risk in Exposed / Risk in Unexposed
+	•	Can also be defined as the probability of an event occurring in exposed people compared with the probability of the event in unexposed people
+	•	If the relative risk is equal to 1, no evidence exists for any increased risk in exposed individuals 
+	•	If the relative risk is greater than 1, evidence exists for a positive association of risk in exposed individuals
+	•	If the relative risk is less than 1, evidence exists for a negative association of risk in exposed individuals
+	•	Calculation
+	•	In a cohort study, the relative risk can be calculated directly
+	•	Incidence in exposed individuals = a / a + b
+	•	Incidence in unexposed individuals = c / c + d
+	•	Therefore…
+	•	Relative Risk = (a / a + b)  /  (c / c + d)
+	•	Example
+	•	In men the association of risk to cholesterol level seems dose related; risk increases for both age groups with increases in cholesterol level. The relationship is not consistent in women.
+	•	When describing relative risk, the numerator and denominator categories should be specified
+
+	•	Odds Ratio
+	•	In a case control study, we do not know the incidence in the exposed population or the incidence in the unexposed population because we start with diseased people (cases) and non diseased people (controls).
+	•	Therefore, we cannot calculate the relative risk directly…so the odds ratio serves as an estimate of relative risk.
+	•	“The odds of an event can be defined as the ratio of the number of ways the event can occur to the number of ways the event cannot occur”
+	•	Odds = Probability that Epi Beauty will win the race / Probability that Epi Beauty will lose the race
+
+
+
+	•	Keep in mind the distinction between probability and odds. A 60% probability of winning gives an odds of winning at 1.5
+	•	.6 / .4 = 1.5
+	•	OR for Cohorts
+	•	Just as the ratio of the incidence in the exposed to the incidence in the unexposed can be used to measure an association of exposure and disease, we can also look at the ratio of the odds that the disease will develop in an exposed person to the odds that it will develop in an unexposed person. Both measures are valid for cohort studies.
+	•	Relative Odds — ratio of the odds of developing a disease in exposed persons to the odds of developing disease in unexposed persons
+	•	Relative Odds = (a/b) / (c/d) = ad//bc
+
+
+
+	•	OR for Case-Control Study
+	•	We do not have information about the incidence of disease in exposed versus unexposed persons, however the odds ratio can serve as a measure of the association between exposure and disease in a case control study
+	•	Relative Odds — Ratio of the odds that the cases were exposed to the odds that the controls were exposed
+	•	Relative Odds = (a/b) / (c/d) = ad//bc
+	•	The odds ratio of a case control study equals the odds ratio of disease
+	•	Even in case-control studies, the odds ratio should be considered prospective
+	•	The odds ration can be viewed as the ratio of the product of the two cells that support the hypothesis of an association to the product of the two cells that negate the hypothesis of an association
+	•	Interpretation
+	•	If the exposure is not related to the disease the odds ratio will equal 1.
+	•	If the exposure is positively related to the diseases, the odds ratio will be greater than 1
+	•	If the exposure is negatively related to the diseases, the odds ratio will be less than 1
+	•	When OR and RR are close when…
+	•	Cases studied are representative of all people with the disease in the population
+	•	Controls studies are representative of all people without the disease in the population
+	•	The disease being studied does not occur frequently (rarity assumption)
+
+
+
+	•	Odds Ratio with Matched Pairs
+	•	Concordant pairs — are pairs in which both the case and the control were exposed or in which neither the case nor the control were exposed.
+	•	Discordant pairs — are pairs in which the case was exposed but the control was not, or vise versa
+	•	The odds ratio for matched pairs is therefore the ratio of the discordant pairs
+	•	Matched Pairs Odds Ratio = b / c
+	•	Essentially, the matched pairs odds ratio can be viewed as the ratio of the number of pairs that support the hypothesis of an association to the number of pairs that negate the hypothesis of an association
+
+
+
+13 — Estimating Potential for Prevention
+
+	•	Relative risk 
+	•	Is an important measure of the strength of the association, which is a major consideration in deriving causal inferences.
+	•	Is a measure of the strength of an association, but the attributable risk indicates the potential for prevention if the exposure could be eliminated
+	•	The practicing physician is mainly interested in attributable risk
+	•	Attributable Risk
+	•	The amount or proportion of disease incidence (or disease risk) that can be attributed to a specific exposure.
+	•	We can calculate the attributable risk for exposed persons or the attributable risk for the total population, which includes both exposed and unexposed persons
+	•	Background Risk
+	•	Every person shares the background risk regardless of whether or not he or she has the specific exposure in question.
+	•	Both exposed and unexposed persons have background risk
+	•	Subtract background risk from total risk
+	•	Incidence
+	•	Incidence in exposed group = incidence not due to exposure + incidence due to exposure
+	•	Incidence in non-exposed group = incidence not due to exposure
+	•	Population Attributable Risk (PAR)
+	•	“If smoking were eliminated, what proportion of the incidence of CHD in the total population would be prevented?”
+	•	PAR = Incidence in total population -  incidence in unexposed group
+	•	P(PAR) = (incidence in total population - incidence in unexposed group) /  incidence in total population 
+	•	Exposed Group Attributable Risk (EAR)
+	•	“If we had an effective smoking cessation campaign, we could hope to prevent 10.6 of the 28/1000 incident cases of CHD that smokers experience.
+	•	EAR = Incidence in exposed group - incidence in unexposed group
+	•	P(EAR) = (Incidence in exposed group - Incidence in unexposed group) / Incidence in exposed group
+	•	Incidence & PAR
+	•	To calculate incidence we need to know the incidence of disease in the total population, which we often do not, or all of the following values:
+	•	Incidence among smokers
+	•	Incidence among non-smokers
+	•	Proportion of the total population that smokes
+	•	Therefore, we simply weight the calculation of incidence in the population by…
+	•	(Incidence in smokers)(% smokers in population) + (Incidence in nonsmokers)(% nonsmokers in population)
+	•	Examples:
+	•	Population Incidence = (28/1000)(0.44) + (17.4/1000)(0.56) = 22.1/1000
+	•	PAR = 22.1/1000 - 17.4/1000 = 4.7/1000
+	•	P(PAR) = (22.1 - 17.4) / 22.1 = 21.3%
+	•	Compare RR & AR
+	•	“Attributable risk is useful in answering the question of how much disease can be prevented if we have an effective means of eliminating the exposure in question. Thus the relative risk is valuable in etiologic studies of disease, whereas the attributable risk has major application in the clinical practice and public health.”
+	•	Example to show complex picture of risk:
+	•	Proportion of the lung cancer risk in smokers that can be attributed to smoking
+	•	Smoking EAR to Lung Cancer = (140-10) / 140 = 92.9%
+	•	Smoking EAR to CHD = (669 - 413) / 669 = 38.3%
+	•	We find that 92.9% of lung cancer deaths can be attributed to smoking and only 38.3% of deaths from CHD in smokers can be attributed to CHD.
+	•	Thus, the relative risk is much higher for lung cancer than CHD, and the attributable risk is expressed as a proportion is also much higher than lung cancer.
+	•	Yet, if smoking were eliminated, 256 deaths per 100000 from CHD would be prevented in contrast to 130 deaths from lung cancer, despite the fact that the relative risk is higher for lung cancer and despite the fact that the proportion of deaths attributable to smoking is greater than lung cancer
+	•	This is a result of the fact that the mortality level in smokers is much higher for CHD than for lung cancer and that the attributable risk in those exposed is much greater for CHD than lung cancer.
+
+14 — Causal Inference from Epidemiological Studies
+
+	•	The next question is whether the observed association reflects a causal relationship
+	•	Unplanned or natural experiments take advantage of groups of people who have been exposed for non study purposes, such as occupational cohorts in specific industries or persons exposed to toxic chemicals.
+	•	In conducting human studies the following steps often occur:
+	•	The initial step may consist of clinical observations at the bedside
+	•	Identify routinely available data 
+	•	Analysis of which might shed light on the question
+	•	Carry out new studies such as the cohort and case-control studies
+	•	If a case control study yields evidence that a certain exposure is suspect, we might next do a cohort study
+	•	In theory, the next step might be a randomized trial, but they are almost never used to study the effects of putative toxins or carcinogens
+	•	If an association is demonstrated, we determine whether the observed association is likely to be a causal one
+	•	Types of associations
+	•	“Is it a real (true) association or a false (spurious) one?”
+	•	“If the observed association is real, is it causal?
+	•	There are factors that are associated and factors that are both linked by a third factor, a confounding variable that is non causal.
+	•	“Are we observing an association of an exposure and a disease because both are associated with a factor with might. Cause people to have both the exposure and an increased risk of disease?”
+	•	If the relationship is causal, we will succeed in reducing the risk of colon cancer if we promote physical activity, both for the individual but also at the population level. However, if the relationship is due to confounding, then the increased risk of colon cancer is caused by factor X. Therefore increasing physical activity will have no effect on the risk of colon cancer.
+	•	Distinguish between an association due to a causal relationship and an association due to confounding (non causal).
+	•	Types of Causal Relationships
+	•	Direct causation — a factor directly causes a disease without any intermediate step
+	•	FACTOR —> DISEASE
+	•	FACTOR —> STEP 1 —> STEP 2 —> DISEASE
+	•	Indirect causation — a factor causes a disease but only through an intermitted step or steps
+	•	“In human biology, intermediate steps are virtually always present in any causal process”
+	•	Four types of causal relationships:
+	•	Necessary and sufficient
+	•	Without the factor, the disease never develops and in the presence of that factor, the disease always develops
+	•	A one-to-one relationship of exposure to disease, which is a consequence of a necessary and sufficient relationship, rarely if ever occurs
+	•	Necessary but not sufficient
+	•	Each factor is necessary but not in itself sufficient to cause the disease 
+	•	Multiple factors are required, often in a specific temporal sequence
+	•	For example, carcinogenesis often involves an initiator and a promoter
+	•	Action of an initiator or a promoter alone will not produce cancer.
+	•	Sufficient but not necessary
+	•	The factor alone can produce the disease but so can other factors that are acting alone
+	•	For example, either radiation exposure or benzene exposure can each produce leukemia without the presence of the other
+	•	The criterion of sufficient is merely met by a single factor
+	•	Neither sufficient nor necessary
+	•	A factor by itself is neither sufficient nor necessary to produce disease
+	•	This is a more complex model
+	•	Interestingly, most individual risk factors are neither necessary nor sufficient
+	•	“A sufficient cause is formed by a constellation of risk factors, termed as “component causes”
+	•	Postulates for Causation
+	•	The organism is always found with the disease
+	•	The organism is not found with any other disease
+	•	The organism, when isolated from one who has the disease and cultured through several generations, produces the disease
+	•	These postulates, although not perfect, proved very useful for infectious diseases, not so great for non-infectious diseases
+	•	Guidelines for Observed Causality
+	•	“None of my nine viewpoints can bring indisputable evidence for or against the cause and effect hypothesis and none can be required as a sine qua non. What they can do, with greater or less strength, is to help us make up our minds on the fundamental question — is there any other way of explaining the set of facts before us, is there any other answer equally, or more, likely than cause and effect?”
+	•	Temporal Relationship
+	•	If a factor is believe to be the case of a disease, exposure to the factor must occur before the disease develops
+	•	The use of ecologic data for exploring a temporal relationship
+	•	It is often easier to establish a temporal relationship in a prospective cohort study that in a case-control study or in a retrospective cohort study.
+	•	Clarifying the order in which the two occur but also in regard to the length of interval between exposure and disease is especially important
+	•	Strength of Association
+	•	Measured by the relative risk (or odds ratio)
+	•	The stronger the association, the more likely it is that the relation is causal
+	•	Dose-Response Relationship
+	•	As the dose of exposure increases, the risk of disease also increases
+	•	If a dose-response relationship is present, it is strong evidence for a causal relationship
+	•	The absence of a dose-response relationship does not necessarily rule out a causal relationship
+	•	Thresholds may exist, insofar as no disease may develop up to a certain level of exposure; above this level, a disease may develop
+	•	Replication of the Findings
+	•	We would expect to find it consistently in different study populations
+	•	Biologic Plausibility
+	•	There needs to be coherence with the current body of biologic knowledge
+	•	Examples may be cited to demonstrate that epidemiologic observations have sometimes preceded biologic knowledge
+	•	Consideration of Alternative Explanations
+	•	In judging whether a reported association is causal, the extent to which the investigators have taken other possible explanations into account and the extent to which they have ruled out such explanations are important considerations
+	•	Cessation of Exposure
+	•	If a factor is a cause of a disease, we would expect the risk of the disease to decline when exposure to the factor is reduced or eliminated
+	•	When cessation data are available, they provide helpful supporting evidence for a causal association, however in some pathogenic processes, the change may be irreversible 
+	•	Consistency with other Knowledge
+	•	If a relationship is causal, we would expect the findings to be consistent with other data
+	•	Specificity of the Association
+	•	A certain exposure is associated with only one disease 
+	•	The possibility of such multiple effects from a single factor is not, in fact, surprising: regardless of the tissue that comprises them, all cells have common characteristics, including DNA, RNA and various sub-cellular structures, so a single agent could have effects in multiple tissues
+	•	Any conclusion that an observed association is causal is greatly strengthened when different types of evidence from multiple sources support such reasoning
+	•	Modifications to Guidelines for Observed Causality
+	•	US Preventative Services Task Force
+	•	Independent committee of experts supported by the US government. Members include experts in primary care, prevention, evidence-based medicine, and research methods. Various clinical areas of experience in preventative medicine, public health and health policy are also represented.
+	•	Process
+	•	The quality of each individual study is assessed, after which the strength of the totality of available evidence is judged. 
+	•	Estimates are made of the balance and benefits and harms.
+	•	This balance is expressed in the net benefit
+	•	Task force then prepares recommendations for preventative interventions based on these considerations
+	•	The deliberations and recommendations of the task force provide a highly useful model of assessing the strength of the evidence and moving from causal inference to policy recommendations.
+	•	The primary question is generally one of whether screening is effective in reducing the risk of an adverse outcome such as mortality and, if so, to what extent.
+
+
+15 — Causal Inference Bias, Confounding and Interaction
+
+	•	Bias — any systematic error in the design, conduct or analysis of a study that results in a mistaken estimate of an exposures effect on the risk of a disease.
+	•	Selection Bias — the way in which cases and controls, or exposed and unexposed individuals, were selected is such that an apparent association is observed — even if, in reality, exposure and disease are not associated—the apparent association is the result of selection bias.
+	•	In most studies, no information can be obtained from the non-responders and hence non-response may introduce some serious bias
+	•	The nature of study selection is that it potentially affects the generalizability or external validity of the study but does not necessarily affect the validity of the comparisons made within the study or the study’s internal validity.
+	•	Exclusion Bias — results when investigators apply different eligibility criteria  to the cases and to the controls, in regard to which clinical conditions in the past would permit eligibility in the study and which would serve as the basis for exclusion.
+	•	Compensating Bias — application of the same eligibility criteria to the selection of cases and controls, when the bias in selecting cases and controls is of the same magnitude
+	•	Information Bias — when the means for obtaining information about the subjects in the study are flawed so that some of the information gathered regarding exposures and/or disease outcomes is incorrect
+	•	Differential Misclassification — rate of misclassification differs in different study groups, leading to either an apparent association even if one does not really exist or to an apparent lack of association when one does in fact exist
+	•	Non-Differential Misclassification — the degree of inaccuracy that characterizes how information is obtained from any study group, either in both cases  and controls or exposed and unexposed persons and resulting in a diluted RR or OR
+	•	Surrogate Interviews — interviews of someone recalled by someone else. They may not have accurate history and certain aspects may be elevated or downplayed based on who is interviewing.
+	•	Surveillance Bias — disease ascertainment may be better in the monitored population than in the general population, leading to an erroneous estimate of RR or OR
+	•	Recall Bias — operates to enhance recall in cases compared with controls to fight against a control remembering an exposure and a control forgetting it
+	•	Reporting Bias — a subject may be reluctant to report an exposure he/she is aware of because of attitudes, beliefs or perceptions…such is common in HIV studies
+	•	Wish Bias — the denial of certain exposures related to lifestyle or the overemphasis of workplace-related exposures
+	•	Confounding — a variable that is correlated with the independent variable and also causally related to another dependent variable.
+	•	One of the most important problems in observational epidemiologic studies
+	•	Example: smoking is a known risk factor for pancreatic cancer, but smoking is also associated with coffee drinking, but is not a result of coffee drinking
+	•	Example: 80% of controls are younger than 40 years of age, compared with only 50% of the cases. Thus the older age is associated with being a case and a younger age is associated with being a control.
+	•	Fighting the Confounding
+	•	We can match the cases to the controls for each factor that we suspect could be a possible confounder, at times in stratums
+	•	After matching in this way, we then observe an association of exposure and disease, we would know that we could not attribute the observed association to age differences in cases and controls
+	•	Stratification — by examining each stratum separately, we are, in effect, holding the confounding variable constant and we still find much higher disease mortality in exposed than unexposed
+	•	Adjustment — alteration, imputation or multivariate consideration utilized in order to minimize the effect of confounding variables
+	•	Additional Context
+	•	When we identify a confounder, we generally consider it a problem and want to find ways to address the issue of confounding, sometimes finding a confounded relationship can also be enlightening
+	•	A confounded relationship may still be a helpful guide in screening populations even when we do not identify the specific etiologic agent involved
+	•	Confounding is not an error in the study, but rather is a true phenomenon that is identified in a study and must be understood
+	•	Confounding is a valid finding that describes the nature of the relationship among several factors and the risk of disease
+	•	Failure to take confounding into account in interpreting results of a study is indeed an error on the conduct of the study and can bias the conclusions of the study
+	•	Interaction — when the incidence rate of disease in the presence of two or more risk factors differs from the incidence rate expected to result from their individual effects
+	•	When we see an association, we then ask whether the association is really strong in each of the stratums that are formed on the basis of some third variable
+	•	But if the association is of different strengths in different strata formed on the basis of a variable, a multivariate interaction has potentially occurred
+	•	If there was no interaction, we would expect the association to be of the same strength in each stratum.
+	•	Additive Interaction — when there are two exposures, the effect of one exposure is added to the effect of the second exposure
+	•	Attributable Risks — differences in risk when measuring the interaction of multiple exposures to its various combinations
+	•	Multiplicative Interaction — when there are two exposures, the effect of one exposure is multiplied by the effect of the second exposure
+	•	Interactions are visualized in dual grid calculations:
+
+	•	It is difficult to know the answer without more information about the biology of the disease, the mechanisms involved in the pathogenesis of the disease and how such factors operate at cellular and molecular levels. 
+	•	Most experts accept any effect greater than the additive as evidence of positive interaction, aka synergism
+	•	The decision as to whether an additive model or a multiplicative model is most relevant in a given situation should depend on the biology of the disease
+	•	Observation of synergy is of major clinical and public health interest, but also suggests important directions for further laboratory research into the etiology and pathogenesis of a disease.
+	•	Conclusion
+	•	Bias reflect inadequacies in the design or conduct of a study, and clearly affect the validity of the findings
+	•	Confounding and interaction describe the reality of the interrelationships between certain exposures and a certain disease outcome.
+	•	Most causal questions involve the relationships of multiple exposures and multiple, possibly etiologic, factors.
+
+
